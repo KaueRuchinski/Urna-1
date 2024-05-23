@@ -68,9 +68,24 @@ function atualizaInterface() {
 }
 
 function clicou(n) {
-    let somNumeros = new Audio()
-    somNumeros.src = "/audio/audio.mp3"
-somNumeros.play();
+    //let somNumeros = new Audio()
+    //somNumeros.src = "/audio/toy.mp3"
+    //somNumeros.play();
+   
+//const audio = new audio();
+    //audio.src = "/audio/toy.mp3";
+   // onclick=audio.play();
+
+  //var audio = new Audio('toy.mp3');
+//audio.addEventListener('canplaythrough', function() {
+  //audio.play();
+//});
+
+    //const clicou = document.querySelector('clicou')
+   // clicou.addEventeListener('click', function(){
+       // const audio = document.querySelector('clicou')
+       // audio.play()
+    //})
 
     let elNumero = document.querySelector('.numero.pisca'); // Seleciona o campo que está piscando
     if (elNumero !== null) {
